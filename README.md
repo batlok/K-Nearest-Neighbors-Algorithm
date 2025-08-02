@@ -6,14 +6,14 @@
 
 *Dataset: Built-in 'iris' dataset in R*
 
-**Features**:
+# Features:
 
 *-Sepal.Length*
 *-Sepal.Width*
 *-Petal.Length*
 *-Petal.Width*
 
-**Technologies Used**
+# Technologies Used
 
 *-Programming Language:* **R**
 **Packages**
@@ -22,7 +22,7 @@
 'caTools' - For Data Splitting
 'e1071` – Required by Caret
 
-**Workflow**
+# Workflow
 
 *Load and summarize the dataset*
 *Split the data into training (%70) and test (%30) sets*
@@ -36,13 +36,13 @@
 *Make predictions* on the test data using the best `k`
 *Final evaluation*
 
-**Result**
+# Result
 
 The model achieved high accuracy with multiple values of 'k' (3, 4, 5, 7 and 9).
 Confusion matrices were used to assess classification performance.
 Accuracy was visualized across different 'k' values using plots.
 
-**SAMPLE OUTPUT**
+# SAMPLE OUTPUT
 Prediction setosa versicolor virginica
 setosa 20 0 0
 versicolor 0 19 2
